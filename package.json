@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:css": "tailwindcss build ./styles/input.css -o ./styles/output.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,5 +15,10 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BroJavaDevs/DSWorkFlow/issues"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3"
   }
 }
